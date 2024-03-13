@@ -1,0 +1,14 @@
+#include<stdio.h>
+struct song
+{
+	int i;
+	char feilds[60];
+	char artist[30];
+	char album[40];
+};
+int main()
+{
+	struct song var={25,"love songs","arjithsingh","my fav"};
+  printf("feilds is=%s\n arsist=%s\n album=%s\n",var.feilds,var.artist,var.album);
+  return 0;
+	}
