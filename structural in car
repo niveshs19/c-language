@@ -1,0 +1,13 @@
+#include<stdio.h>
+ struct car
+ {
+ 	char brand[12];
+ 	char model[34];
+ 	int year;
+ };
+ int main()
+ {
+ 	struct car var={"toyota","supra",1969};
+ 	printf("brand is%s\n model=%s\n year=%d",var.brand,var.model,var.year);
+ 	return 0;
+ }
